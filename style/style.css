@@ -3,11 +3,23 @@
     background-color: #2C3E50;
 }
 .mc_bgcolor_green{
-background-color: #1abc9c;
+    background-color: #1abc9c;
+}
+.mc_bgcolor_lightgrey{
+    background-color: #3A546D;
 }
 .mc_bgcolor_green >*{
     color: white;
 }
 .mc_bgcolor_white >*{
     color: black;
+}
+footer{
+    color: white;
+}
+.mc_bgcolor_grey >*{
+    color: white;
+}
+.mc_font_small{
+    font-size: 0.7rem;
 }
