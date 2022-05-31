@@ -1,3 +1,13 @@
+
 .mc_bgcolor_grey{
     background-color: #2C3E50;
+}
+.mc_bgcolor_green{
+background-color: #1abc9c;
+}
+.mc_bgcolor_green >*{
+    color: white;
+}
+.mc_bgcolor_white >*{
+    color: black;
 }
