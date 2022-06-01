@@ -20,6 +20,60 @@ footer{
 .mc_bgcolor_grey >*{
     color: white;
 }
+
 .mc_font_small{
     font-size: 0.7rem;
+}
+.mc_txt_color{
+    color: darkcyan;
+}
+.ms_star_black,
+.ms_star_white{
+    margin: 20px auto;
+    max-width: 300px;
+    min-width: 100%;
+}
+.ms_star_black::after,
+.ms_star_black::before{
+    content: '';
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    border-radius: 2px; 
+    vertical-align: middle;
+    background-color: black;
+}
+.ms_star_white::after,
+.ms_star_white::before{
+    content: '';
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    border-radius: 2px; 
+    vertical-align: middle;
+    background-color: white;
+}
+.mc_width{
+    width: 100%;
+    position: relative;
+}
+.mc_hover:hover img{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.mc_plus{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    color: lightcoral;
+}
+.mc_hover:hover .mc_plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    
 }
