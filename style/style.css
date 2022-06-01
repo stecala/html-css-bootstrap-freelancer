@@ -55,11 +55,15 @@ footer{
 }
 .mc_width{
     width: 100%;
+}
+.mc_hover{
     position: relative;
+}
+.mc_hover:hover{
+    cursor: pointer;
 }
 .mc_hover:hover img{
     opacity: 0.4;
-    cursor: pointer;
 }
 .mc_plus{
     position: absolute;
@@ -68,12 +72,12 @@ footer{
     top: 0;
     left: 0;
     display: none;
-    color: lightcoral;
+    color: lightslategray;
+    font-size: 6rem;
 }
 .mc_hover:hover .mc_plus{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 99;
     
 }
